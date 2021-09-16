@@ -1,6 +1,6 @@
 
 
-const nombre = 'Tony'
+const nombre   = 'Tony'
 const apellido = 'Stark'
 
 console.log( nombre, apellido )
