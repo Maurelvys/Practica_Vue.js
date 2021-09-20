@@ -1,10 +1,11 @@
 
-const characters = ['Goku','Vegeta','Trunks']
+let firstName;
+let lastName = 'Herrera';
 
-//Desestructuracion de arreglo
+console.log(`${firstName || 'No firstName'} ${lastName || 'No lastName'}`)
 
-const [g, v, t] = characters
+const isActive = true
 
+const message = (isActive) ? 'Activo' : 'Inactivo'
 
-console.log(g, v, t)
-
+console.log(message)
